@@ -1,4 +1,4 @@
-package com.springboot.blog.payload;
+package com.springboot.blog.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,9 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class JWTAuthResponse {
-    private String accessToken;
-    private String tokenType = "Bearer";
+public class SignupDto {
+    private String name;
+    private String username;
+    private String email;
+    private String password;
 }
