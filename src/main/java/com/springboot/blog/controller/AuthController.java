@@ -1,8 +1,8 @@
 package com.springboot.blog.controller;
 
-import com.springboot.blog.dto.JWTAuthResponse;
-import com.springboot.blog.dto.LoginDto;
-import com.springboot.blog.dto.SignupDto;
+import com.springboot.blog.dto.auth.JWTAuthResponse;
+import com.springboot.blog.dto.auth.LoginDto;
+import com.springboot.blog.dto.auth.SignupDto;
 import com.springboot.blog.service.AuthService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

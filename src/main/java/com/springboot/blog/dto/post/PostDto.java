@@ -1,5 +1,6 @@
-package com.springboot.blog.dto;
+package com.springboot.blog.dto.post;
 
+import com.springboot.blog.dto.comment.CommentDto;
 import lombok.Data;
 
 import jakarta.validation.constraints.NotEmpty;

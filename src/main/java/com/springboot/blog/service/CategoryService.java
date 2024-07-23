@@ -1,6 +1,6 @@
 package com.springboot.blog.service;
 
-import com.springboot.blog.dto.CategoryDto;
+import com.springboot.blog.dto.post.CategoryDto;
 
 import java.util.List;
 

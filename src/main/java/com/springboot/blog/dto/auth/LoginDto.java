@@ -1,4 +1,4 @@
-package com.springboot.blog.dto;
+package com.springboot.blog.dto.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
